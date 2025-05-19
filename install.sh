@@ -6,7 +6,6 @@ userHome="/home/${USER}"
 installDir="${userHome}/opt/discord"
 discordBin="${installDir}/Discord/Discord"
 discordIcon="${installDir}/Discord/discord.png"
-desktopFile="${installDir}/discord.desktop"
 desktopDir=$(xdg-user-dir DESKTOP 2>/dev/null || echo "${HOME}/Desktop")
 discordDownloadPage="https://discord.com/api/download?platform=linux&format=tar.gz"
 
