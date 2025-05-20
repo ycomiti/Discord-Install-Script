@@ -4,8 +4,6 @@ A simple Bash script to download, install, and create desktop shortcuts for Disc
 
 This script fetches the latest official Discord Linux release, installs it under `~/opt/discord`, and sets up desktop entries for easy launching.
 
-Once you install Discord using this script, manual updates will no longer be necessary, as Discord will be installed in the user's home directory and will be able to update itself automatically, similar to how it functions on Windows.
-
 ---
 
 ## Features
