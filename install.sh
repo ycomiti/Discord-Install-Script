@@ -26,7 +26,7 @@ Name=Discord
 StartupWMClass=discord
 Comment=All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
 GenericName=Internet Messenger
-Exec=env DISCORD_DISABLE_SENTRY=1 DISCORD_DISABLE_CRASH_REPORTING=1 DISCORD_DISABLE_UPDATES=1 DISCORD_ENABLE_CRASH_CONTEXT=0 ${discordBin}
+Exec=sh -c 'env DISCORD_DISABLE_SENTRY=1 DISCORD_DISABLE_CRASH_REPORTING=1 DISCORD_DISABLE_UPDATES=1 DISCORD_ENABLE_CRASH_CONTEXT=0 ${discordBin} > /dev/null 2>&1'
 Icon=${discordIcon}
 Type=Application
 Categories=Network;InstantMessaging;
